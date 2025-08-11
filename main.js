@@ -66,7 +66,7 @@ app.patch("/authors/:id",(req,res)=>
 app.delete("/authors/:id",(req,res)=>{
     const id = req.params.id
     authors = authors.filter(item => item.id != id)
-    res.send(" del")
+    res.send("deleted!!")
 })
 
 app.listen(3000,()=>{
