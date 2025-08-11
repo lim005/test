@@ -3,7 +3,7 @@ const app = express()
 app.use(express.json())
 const book =[
     {id:1,name:"Book one"},
-    {id:2,name: "Book two"},
+    {id:2,name: " two"},
     {id:3, name:"Book three"}
 ]
 let authors = [
