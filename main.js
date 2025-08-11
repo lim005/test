@@ -27,7 +27,7 @@ app.post("/book",(req,res)=>
 app.get("/book/:id",(req,res)=>{
     const id = (req.params.id)
     const fbook = book.find(item => item.id == id)
-    res.send(fbook ? fbook :"Not found")
+    res.send(fbook ? fbook :"Not")
 })
 app.patch("/book/:id",(req,res)=>{
     const update = req.params.id
